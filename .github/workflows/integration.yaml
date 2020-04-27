@@ -1,6 +1,8 @@
 name: Service Integration
 on: 
   push:
+    branches-ignore:
+      - '**'
     paths:
       - '.github/workflows/integration.yaml'
       - 'utilities/wait_for_deployments.py'
