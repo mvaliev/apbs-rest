@@ -1,6 +1,8 @@
 name: Run Microservice Unit Tests
 on: 
   push:
+    branches-ignore:
+      - '**'
     paths:
       - '.github/workflows/unit.yaml'
       - 'src/**'
