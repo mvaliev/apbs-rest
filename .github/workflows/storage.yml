@@ -4,7 +4,7 @@ name: storage service test
 
 on:
   push:
-    branches: [ master ]
+    branches: [ storage-test ]
 
 jobs:
   build:
